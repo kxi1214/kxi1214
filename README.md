@@ -22,12 +22,12 @@ driver.implicitly_wait(5)
 
 #아이디
 id_input_xpath = '//*[@id="login_id"]'
-driver.find_element_by_xpath(id_input_xpath).send_keys('아이디')
+driver.find_element_by_xpath(id_input_xpath).send_keys('t20235303')
 driver.implicitly_wait(5)
 
 #비밀번호
 password_input_xpath = '//*[@id="login_pwd"]'
-driver.find_element_by_xpath(password_input_xpath).send_keys('비밀번호')
+driver.find_element_by_xpath(password_input_xpath).send_keys('ajtwoddl12')
 driver.implicitly_wait(5)
 
 #로그인 버튼
